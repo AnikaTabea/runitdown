@@ -1,0 +1,19 @@
+Package: runitdown
+Type: Package
+Title: Analyze and Visualize Running Activities from GPX Files
+Version: 0.1.0
+Author: Anika Tabea Kind (12767778)
+Maintainer: Anika Tabea Kind <anika.tabea.kind@gmail.com>
+Description: Parses GPX files to summarize running metrics and visualize GPS tracks using sf, tmap and ggplot2.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    xml2,
+    dplyr,
+    lubridate,
+    sf,
+    ggplot2,
+    tmap
