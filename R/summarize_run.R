@@ -1,12 +1,12 @@
 
 #' Summarize GPX Run
 #'
-#' This function reads a .gpx file and calculates key run metrics like distance, duration, average pace, and elevation gain.
+#' This function reads a .gpx file and calculates key run metrics like distance, duration, average pace and elevation gain.
 #' It uses the 'sf' package to compute geospatial distances.
 #'
 #' @param gpx_file Path to the .gpx file.
 #'
-#' @return A named list with total distance (km), duration (hh:mm:ss), average pace (min/km), and elevation gain (m).
+#' @return A named list with total distance (km), duration (hh:mm:ss), average pace (min/km) and elevation gain (m).
 #' @export
 #'
 #' @examples
