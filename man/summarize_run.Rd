@@ -10,10 +10,10 @@ summarize_run(gpx_file)
 \item{gpx_file}{Path to the .gpx file.}
 }
 \value{
-A named list with total distance (km), duration (hh:mm:ss), average pace (min/km), and elevation gain (m).
+A named list with total distance (km), duration (hh:mm:ss), average pace (min/km) and elevation gain (m).
 }
 \description{
-This function reads a .gpx file and calculates key run metrics like distance, duration, average pace, and elevation gain.
+This function reads a .gpx file and calculates key run metrics like distance, duration, average pace and elevation gain.
 It uses the 'sf' package to compute geospatial distances.
 }
 \examples{
