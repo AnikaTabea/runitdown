@@ -7,7 +7,7 @@
 plot_route_map(gpx_file)
 }
 \arguments{
-\item{gpx_file}{Path to the .gpx file.}
+\item{gpx_file}{}
 }
 \value{
 A tmap map object displaying the running route.
